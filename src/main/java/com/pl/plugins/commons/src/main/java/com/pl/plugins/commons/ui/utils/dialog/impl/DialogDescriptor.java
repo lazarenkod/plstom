@@ -10,7 +10,6 @@ import java.util.ArrayList;
  * User: Vlad
  * Date: 04.10.2008
  * Time: 10:45:44
- * To change this template use File | Settings | File Templates.
  */
 public class DialogDescriptor implements IDialogDescriptor {
 

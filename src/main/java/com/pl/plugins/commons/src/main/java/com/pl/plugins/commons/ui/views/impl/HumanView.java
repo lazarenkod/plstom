@@ -89,7 +89,7 @@ public class HumanView extends SimpleView<HumanModel, HumanController> {
                 showDulDialog((DulDBO) jlDuls.getSelectedValue());
             }
         });
-    }
+    }                                           
 
     private void showDulDialog(DulDBO dul) {
 

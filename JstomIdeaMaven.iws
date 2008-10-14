@@ -18,10 +18,14 @@
     <option name="historyRevisionsNumber" value="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" name="Default" comment="">
+    <list default="true" name="Default" comment="&#10;# Brief commit desciption here&#10;&#10;# Full commit description here (comment lines starting with '#' will not be included)&#10;&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/DialogDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/DialogDescriptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JstomIdeaMaven.iws" afterPath="$PROJECT_DIR$/JstomIdeaMaven.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/AbstractTopComponent.java" afterPath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/AbstractTopComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/model/IPublisher.java" afterPath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/model/IPublisher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/SimpleDialogDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/SimpleDialogDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/jpf.log" afterPath="$PROJECT_DIR$/logs/jpf.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleDialog.java" afterPath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/domain/view/validation/ui/DialogUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/HumanView.java" afterPath="$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/HumanView.java" />
     </list>
     <list name="ignore-on-commit" comment="ignore-on-commit" />
     <ignored path=".idea/workspace.xml" />
@@ -86,31 +90,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractTopComponent.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AbstractTopComponent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/AbstractTopComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="22" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.7838785">
+            <state line="127" column="22" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1234615944985" expanded="true" signature="992:1499" placeholder="..." />
-                <element signature="method#canClose#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#showCloseConfirmWindow#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#open#1;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#edit#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#edit#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#view#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#view#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#close#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#close#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#doOpen#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#doOpen#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#doEdit#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#doEdit#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#doView#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#doView#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#doClose#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#doClose#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="method#getPresentationModel#0;class#AbstractTopComponent#0" expanded="false" />
-                <element signature="docComment;method#getController#0;class#AbstractTopComponent#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogUtils.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/domain/view/validation/ui/DialogUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="80" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.18798152">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogDescriptor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/DialogDescriptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="72" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleDialogDescriptor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/SimpleDialogDescriptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="11" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,20 +133,24 @@
       <file leaf-file-name="HumanView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/HumanView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="379" column="28" selection-start="15488" selection-end="15488" vertical-scroll-proportion="0.0">
+            <state line="117" column="30" selection-start="3384" selection-end="3384" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1234542676451" expanded="true" signature="7506:15452" placeholder="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1234542676451" expanded="true" signature="15464:16211" placeholder="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1234617769202" expanded="true" signature="7549:15495" placeholder="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1234617769202" expanded="true" signature="15507:16254" placeholder="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleView.java">
+      <file leaf-file-name="SimpleDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="22" column="17" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#initComponents#0;class#SimpleDialog#0" expanded="false" />
+                <marker date="1234616624796" expanded="true" signature="1858:3483" placeholder="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1234616624796" expanded="true" signature="3495:3708" placeholder="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,7 +158,7 @@
       <file leaf-file-name="View.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="28" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
+            <state line="48" column="5" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,8 +186,8 @@
     <option name="HIDE_CLASSES_WHERE_METHOD_NOT_IMPLEMENTED" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/DulView.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/EventDispatcher.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/DulView.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JUnitClassTemplateConfiguration">
     <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
@@ -789,6 +807,86 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="dialog" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JstomIdeaMaven" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CommonsPlugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="commons" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="commons" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ui" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="dialog" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="impl" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JstomIdeaMaven" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CommonsPlugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="commons" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="commons" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ui" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="uinew" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -878,6 +976,56 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="validation" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="JstomIdeaMaven" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="CommonsPlugin" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="commons" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="commons" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ui" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="uinew" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="view" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="validation" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ui" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1025,17 +1173,17 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Facets" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="102" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="131" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="131" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="124" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="124" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="126" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="806" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="798" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="806" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="119" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="124" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -1050,11 +1198,11 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="com.lgc.identifierhighlighter.IdentifierHighlighterAppComponent" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="project.structure.side.proportion" value="0.38728324" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -1300,6 +1448,26 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <module name="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e &quot;STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)&quot;" />
@@ -1466,28 +1634,27 @@
     <frame x="36" y="-4" width="1248" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="RMI Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26303855" sideWeight="0.5" order="8" side_tool="false" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.7211202" order="3" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24898621" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276644" sideWeight="0.5" order="1" side_tool="false" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31578946" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32927817" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276644" sideWeight="0.5" order="11" side_tool="false" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30944255" sideWeight="0.5" order="13" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30839002" sideWeight="0.5" order="13" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27210885" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24832776" sideWeight="0.6802721" order="1" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18689321" sideWeight="0.6650943" order="3" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20568562" sideWeight="0.6825397" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20568562" sideWeight="0.7823129" order="0" side_tool="false" />
       <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="14" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276644" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20975056" sideWeight="0.5" order="2" side_tool="false" x="19" y="495" width="1233" height="217" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20975056" sideWeight="0.5" order="2" side_tool="false" x="19" y="495" width="1233" height="217" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.7211202" order="3" side_tool="false" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Maven Runner Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35920852" sideWeight="0.5" order="9" side_tool="false" />
@@ -1495,6 +1662,7 @@
       <window_info id="Gismeteo.Ru" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23844282" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24979724" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="RMI Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Archetypes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37145174" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" />
@@ -1506,8 +1674,8 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
-      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" />
+      <window_info id="Graphical Navigator" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -1690,39 +1858,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleDialog.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/DulView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="25" selection-start="3413" selection-end="3413" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/IEventDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="42" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/SubscribingMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="33" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/IView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.1218638">
@@ -1763,13 +1898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/domain/view/validation/ValidationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1777,48 +1905,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleDialog.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/AbstractTopComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="22" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1234615944985" expanded="true" signature="992:1499" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/HumanView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="28" selection-start="15488" selection-end="15488" vertical-scroll-proportion="0.0">
+        <state line="117" column="30" selection-start="3384" selection-end="3384" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1234542676451" expanded="true" signature="7506:15452" placeholder="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1234542676451" expanded="true" signature="15464:16211" placeholder="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1234617769202" expanded="true" signature="7549:15495" placeholder="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1234617769202" expanded="true" signature="15507:16254" placeholder="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/DialogDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="72" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/utils/dialog/impl/SimpleDialogDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/SimpleDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="17" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#initComponents#0;class#SimpleDialog#0" expanded="false" />
+            <marker date="1234616624796" expanded="true" signature="1858:3483" placeholder="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1234616624796" expanded="true" signature="3495:3708" placeholder="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/impl/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="28" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0">
+        <state line="48" column="5" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/core/AbstractTopComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/uinew/domain/view/validation/ui/DialogUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="22" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.7838785">
-          <folding>
-            <marker date="1234615944985" expanded="true" signature="992:1499" placeholder="..." />
-            <element signature="method#canClose#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#showCloseConfirmWindow#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#open#1;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#edit#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#edit#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#view#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#view#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#close#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#close#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#doOpen#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#doOpen#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#doEdit#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#doEdit#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#doView#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#doView#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#doClose#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#doClose#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="method#getPresentationModel#0;class#AbstractTopComponent#0" expanded="false" />
-            <element signature="docComment;method#getController#0;class#AbstractTopComponent#0" expanded="false" />
-          </folding>
+        <state line="68" column="80" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.18798152">
+          <folding />
         </state>
       </provider>
     </entry>

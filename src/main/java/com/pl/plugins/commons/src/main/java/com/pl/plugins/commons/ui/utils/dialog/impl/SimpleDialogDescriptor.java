@@ -9,7 +9,6 @@ import java.awt.event.ActionListener;
  * User: Vlad
  * Date: 04.10.2008
  * Time: 11:12:29
- * To change this template use File | Settings | File Templates.
  */
 public class SimpleDialogDescriptor extends DialogDescriptor{
 
