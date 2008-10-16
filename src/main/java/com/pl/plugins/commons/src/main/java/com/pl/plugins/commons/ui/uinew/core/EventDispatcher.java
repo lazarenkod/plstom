@@ -16,6 +16,9 @@ public class EventDispatcher implements IEventDispatcher {
     private HashMultimap<SubscribingMessage, ISubscriber> messageSubscribers = new HashMultimap<SubscribingMessage, ISubscriber>();
     private final Logger log = Logger.getLogger(getClass());
 
+    public EventDispatcher() {
+    }
+
     /**
      * Осуществляет подписку на все события данного класса
      *
