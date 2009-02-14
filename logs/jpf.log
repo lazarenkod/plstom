@@ -1,0 +1,11 @@
+2009-02-13 14:19:52,943 [main] INFO  org.java.plugin.boot.DefaultApplicationInitializer logging system initialized
+2009-02-13 14:19:52,943 [main] INFO  org.java.plugin.boot.DefaultApplicationInitializer application root is D:\projects\plstom(0-6-1)
+2009-02-13 14:19:53,006 [main] INFO  org.java.plugin.registry.xml.ManifestParser got SAX parser factory - com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@131f71a
+2009-02-13 14:19:53,006 [main] INFO  org.java.plugin.registry.xml.PluginRegistryImpl configured, stopOnError=false, isValidating=true
+2009-02-13 14:19:53,100 [main] INFO  org.java.plugin.standard.ShadingPathResolver configured, shadow folder is D:\projects\plstom(0-6-1)\temp\.jpf-shadow
+2009-02-13 14:19:53,209 [main] INFO  org.java.plugin.registry.xml.PluginRegistryImpl plug-in and fragment descriptors registered - 3
+2009-02-13 14:19:53,240 [main] INFO  org.java.plugin.boot.DefaultApplicationInitializer integrity check done: errors - 0, warnings - 0
+2009-02-13 14:19:53,240 [main] INFO  org.java.plugin.boot.DefaultApplicationInitializer application plug-in is com.pl.plugins.core
+2009-02-13 14:19:53,490 [main] INFO  org.java.plugin.standard.StandardPluginManager plug-in started - com.pl.plugins.core@0.0.1
+2009-02-13 14:19:57,944 [AWT-EventQueue-0] INFO  org.java.plugin.standard.StandardPluginManager plug-in started - com.pl.plugins.commons@1.0.0
+2009-02-13 14:19:57,991 [AWT-EventQueue-0] INFO  org.java.plugin.standard.StandardPluginManager plug-in started - com.pl.plugins.staff@1.0.0

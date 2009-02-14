@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 1.0" "http://jpf.sourceforge.net/plugin_1_0.dtd">
+<plugin id="com.pl.plugins.commons" version="1.0" class="com.pl.plugins.commons.CommonsPlPlugin">
+    <requires>
+        <import plugin-id="com.pl.plugins.core" />
+    </requires>
+    <runtime>
+        <library id="commonsplugin" path="/" type="code">
+            <export prefix="*"/>
+        </library>
+		<library id="spring-context" path="lib/spring-context-2.0.4.jar" type="code">
+        </library>
+		<library id="common-collections" path="lib/commons-collections.jar" type="code">
+        </library>
+		<library id="spring-beans" path="lib/spring-beans-2.0.4.jar" type="code">
+        </library>
+		<library id="spring-core" path="lib/spring-core-2.0.4.jar" type="code">
+        </library>
+    </runtime>
+    <extension plugin-id="com.pl.plugins.core" point-id="PLPlugin" id="commonsPLPlugin">
+        <parameter id="class" value="com.pl.plugins.commons.CommonsPlPlugin"/>
+        <parameter id="name" value="Code Colorer Tool"/>
+        <parameter id="description" value="Tool to colorize source code text"/>
+        <parameter id="springConfig" value="com/pl/plugins/commons/pluginContext.xml"/>
+    </extension>
+</plugin>

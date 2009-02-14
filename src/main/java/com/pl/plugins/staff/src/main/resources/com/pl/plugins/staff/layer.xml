@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filesystem>
+    <folder name="pl" displayName="File">
+        <folder name="aaa111" displayName="Edit">
+            <folder name="cc222" displayName="Paste">
+                <attr name="instanceClass" stringvalue="com.pl.plugins.staff.StaffPlPlugin"/>
+                <attr name="displayName" stringvalue="PasteOnce"/>
+                <attr name="name" stringvalue="sdfsd1"/>
+            </folder>
+        </folder>
+    </folder>
+    <!--<folder name="aaa" displayName="View">-->
+        <!--<attr name="instanceClass" stringvalue="com12"/>-->
+        <!--<attr name="displayName" stringvalue="Windows"/>-->
+        <!--<attr name="name" stringvalue="sdfsd12"/>-->
+    <!--</folder>-->
+</filesystem>

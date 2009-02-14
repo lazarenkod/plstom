@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.pl.plugins.commons.dal.dbo.DulDBO" table="pl_dul">
+		<id name="id" >
+			<column name="id"/>
+			<generator class="identity"/>
+		</id>
+		<property name="num" column="num"/>
+		<property name="series" column="series"/>
+        <property name="type" column="type"/>
+        <property name="issuer" column="issuer_name"/>
+        <property name="issue_date" column="issue_date"/>
+        <property name="issue_division" column="issuer_division"/>
+        <many-to-one name="human" column="human_id" class="com.pl.plugins.commons.dal.dbo.HumanDBO"/>      
+    </class>
+</hibernate-mapping>

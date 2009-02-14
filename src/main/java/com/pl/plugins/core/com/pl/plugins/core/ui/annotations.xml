@@ -1,0 +1,5 @@
+<root>
+    <item name='com.pl.plugins.core.ui.impl.MainForm javax.swing.JMenuBar getMenuBar()'>
+        <annotation name='java.lang.Override'/>
+    </item>
+</root>

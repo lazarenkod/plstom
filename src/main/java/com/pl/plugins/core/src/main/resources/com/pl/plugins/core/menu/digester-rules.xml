@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE digester-rules SYSTEM "digester-rules.dtd">-->
+
+<digester-rules>
+    <object-create-rule pattern="filesystem" classname="com.pl.plugins.core.menu.Layer"/>
+
+    <pattern value="filesystem/folder">
+    <object-create-rule classname="com.pl.plugins.core.menu.FolderNode"/>
+
+    <call-method-rule methodname="setName" paramcount="1"/>
+    <call-param-rule paramnumber="0" attrname="name"/>
+
+    <call-method-rule methodname="setDisplayName" paramcount="1"/>
+    <call-param-rule paramnumber="0" attrname="displayName"/>
+
+        
+    <pattern value="filesystem/folder/attr">
+        <object-create-rule classname="com.pl.plugins.core.menu.AtrNode"/>
+        <!--<set-properties-rule>-->
+            <!--<alias attr-name="name" prop-name="name" />-->
+            <!--<alias attr-name="stringvalue" prop-name="stringvalue"/>-->
+         <!--</set-properties-rule>-->
+
+        <call-method-rule methodname="setAtrName" paramcount="1"/>
+        <call-param-rule paramnumber="0" attrname="name"/>
+
+        <call-method-rule methodname="setAtrValue" paramcount="1"/>
+        <call-param-rule paramnumber="0" attrname="stringvalue"/>
+
+        <set-next-rule methodname="addAtr"/>
+    </pattern>
+        <!--<set-next-rule methodname="addAttr"/>-->
+        <set-next-rule methodname="addFolder"/>
+    </pattern>
+    <!--<set-next-rule methodname="addFolder"/>-->
+</digester-rules>

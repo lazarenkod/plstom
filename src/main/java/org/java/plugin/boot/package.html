@@ -1,0 +1,32 @@
+<html><body>
+
+<p>This package contains helper classes to start/stop JPF based applications.</p>
+<p>The main class here is <a href="Boot.html">Boot</a> that contains standard
+  entry point for Java applications - method
+  <a href="Boot.html#main(java.lang.String[])">main(String[])</a>. The
+  implemented boot sequence is following:</p>
+<ul>
+	<li>Load configuration from <code>boot.properties</code> file from the
+	  current directory. Default values are given from system properties.</li>
+	<li>Instanciate
+	  <a href="ApplicationInitializer.html">ApplicationInitializer</a> and
+	  <a href="BootErrorHandler.html">BootErrorHandler</a> using given
+	  configuration parameters.</li>
+	<li>Call
+	  <a href="ApplicationInitializer.html#initApplication(org.java.plugin.boot.BootErrorHandler, String[])">ApplicationInitializer.initApplication(org.java.plugin.boot.BootErrorHandler, String[])</a>
+	  method to get configured instance of
+	  <a href="Application.html">Application</a> interface.</li>
+	<li>Call
+	  <a href="Application.html#startApplication()">Application.startApplication()</a>
+	  method to get application running.</li>
+</ul>
+<p>For details and supported configuration parameters see documentation for
+  corresponding classes.</p>
+<p>Note that described scenario is quite common and can be customized and
+  changed in any point providing other implementations of key classes.</p>
+<p>For a list of available configuration parameters see documentation for the
+  <a href="Boot.html">Boot</a> (applicable to any scenario) and
+  <a href="DefaultApplicationInitializer.html">DefaultApplicationInitializer</a>
+  (applicable to scenario when this class being used) classes.</p>
+
+</body></html>

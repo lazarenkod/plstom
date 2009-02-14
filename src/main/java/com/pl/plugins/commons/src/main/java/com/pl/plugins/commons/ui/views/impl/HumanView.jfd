@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_10" class="java.beans.XMLDecoder"> 
+ <object class="com.jformdesigner.model.FormModel"> 
+  <void method="setProperty"> 
+   <string>i18n.autoExternalize</string> 
+   <boolean>true</boolean> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.bundlePackage</string> 
+   <string>com.pl.plugins.commons.ui.views</string> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.bundleName</string> 
+   <string>CommonViews</string> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.keyPrefix</string> 
+   <string>HumanInfoView</string> 
+  </void> 
+  <void property="contentType"> 
+   <string>form/swing</string> 
+  </void> 
+  <void property="root"> 
+   <object class="com.jformdesigner.model.FormRoot"> 
+    <void method="add"> 
+     <object class="com.jformdesigner.model.FormContainer"> 
+      <string>javax.swing.JPanel</string> 
+      <object class="com.jformdesigner.model.FormLayoutManager"> 
+       <class>org.jdesktop.layout.GroupLayout</class> 
+       <void method="setProperty"> 
+        <string>$horizontalGroup</string> 
+        <string>par l {seq l {space :::p, par l {par l:l {comp jtfLname::l:p:186:p, comp label1::l:p::p, comp label2:::p::p, comp jtfFname:::p:186:p, par l:t::p {comp label3:::p::p, comp jtfPatrotymic::l::186:x:1, seq l {space :p:3:p, comp label4:::p::p}}}, comp label5:::p::p, comp jdcBirthday::l:p:143:p, comp jcbGender::l:p:97:p}, space :p:17:p, par l {seq {par l {par l:l {comp label6:::p::p, seq l:::1 {comp jbtnAddDul:::p:29:p, space s:::p, comp jbtnDelDul:::p:32:p, space s:::p, comp jbtnEditDul:::p:38:p}, comp scrollPane1::l::149:x:1}, comp label7:::p::p}, space :p:15:p}, seq {comp scrollPane2::::158:x:1, space :::p}}}}</string> 
+       </void> 
+       <void method="setProperty"> 
+        <string>$verticalGroup</string> 
+        <string>par l {seq l {par b {comp label1::b:p::p, comp label6::b:p::p}, space :::p, par l {seq l {comp jtfLname:::p::p, space :::p, comp label2:::p::p, space :6:6:6, comp jtfFname:::p::p, space :::p, comp label3:::p::p, space :6:6:6, comp jtfPatrotymic:::p::p, space :::p, comp label4:::p::p}, comp scrollPane1:::p::p}, space :::p, par l {seq {par l {comp jdcBirthday:::p:20:p, comp jbtnAddDul:::p:25:p}, space :p:7:p, par l {comp label5:::p::p, comp label7::l:p::p}}, par t:l {comp jbtnEditDul::t:p:26:p, comp jbtnDelDul::t:p:25:p}}, space :::p, par l {comp jcbGender:::p::p, comp scrollPane2:::p:71:p}, space ::18:x}}</string> 
+       </void> 
+      </object> 
+      <void method="setProperty"> 
+       <string>border</string> 
+       <object class="javax.swing.border.TitledBorder"> 
+        <null/> 
+        <string>i18nKey=HumanInfoView.this.border</string> 
+        <int>4</int> 
+        <int>2</int> 
+        <null/> 
+        <null/> 
+       </object> 
+      </void> 
+      <void property="name"> 
+       <string>this</string> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>HumanInfoView.label1.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>label1</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JTextField</string> 
+        <void property="name"> 
+         <string>jtfLname</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>HumanInfoView.label2.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>label2</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JTextField</string> 
+        <void property="name"> 
+         <string>jtfFname</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>HumanInfoView.label3.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>label3</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JTextField</string> 
+        <void property="name"> 
+         <string>jtfPatrotymic</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>HumanInfoView.label4.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>label4</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JComboBox</string> 
+        <void property="name"> 
+         <string>jcbGender</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>HumanInfoView.label5.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>label5</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormContainer"> 
+        <string>javax.swing.JScrollPane</string> 
+        <object class="com.jformdesigner.model.FormLayoutManager"> 
+         <class>javax.swing.JScrollPane</class> 
+        </object> 
+        <void property="name"> 
+         <string>scrollPane1</string> 
+        </void> 
+        <void method="add"> 
+         <object class="com.jformdesigner.model.FormComponent"> 
+          <string>javax.swing.JList</string> 
+          <void property="name"> 
+           <string>jlDuls</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>HumanInfoView.label6.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>label6</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/id_card_add.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbtnAddDul</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/id_card_delete.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbtnDelDul</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/id_card_information.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbtnEditDul</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>com.toedter.calendar.JDateChooser</string> 
+        <void property="name"> 
+         <string>jdcBirthday</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormContainer"> 
+        <string>javax.swing.JScrollPane</string> 
+        <object class="com.jformdesigner.model.FormLayoutManager"> 
+         <class>javax.swing.JScrollPane</class> 
+        </object> 
+        <void property="name"> 
+         <string>scrollPane2</string> 
+        </void> 
+        <void method="add"> 
+         <object class="com.jformdesigner.model.FormComponent"> 
+          <string>javax.swing.JTextArea</string> 
+          <void method="setProperty"> 
+           <string>font</string> 
+           <object class="com.jformdesigner.model.SwingDerivedFont"> 
+            <null/> 
+            <int>0</int> 
+            <int>1</int> 
+            <boolean>false</boolean> 
+           </object> 
+          </void> 
+          <void property="name"> 
+           <string>jtaAddress</string> 
+          </void> 
+         </object> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>HumanInfoView.label7.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>label7</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+     <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+      <null/> 
+      <void method="setProperty"> 
+       <string>location</string> 
+       <object class="java.awt.Point"> 
+        <int>0</int> 
+        <int>0</int> 
+       </object> 
+      </void> 
+      <void method="setProperty"> 
+       <string>size</string> 
+       <object class="java.awt.Dimension"> 
+        <int>385</int> 
+        <int>325</int> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

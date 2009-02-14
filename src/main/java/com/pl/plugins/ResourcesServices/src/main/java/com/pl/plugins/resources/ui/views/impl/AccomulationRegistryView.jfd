@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_04" class="java.beans.XMLDecoder"> 
+ <object class="com.jformdesigner.model.FormModel"> 
+  <void method="setProperty"> 
+   <string>i18n.autoExternalize</string> 
+   <boolean>true</boolean> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.bundlePackage</string> 
+   <string>com.pl.plugins.resources.ui</string> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.bundleName</string> 
+   <string>Cards</string> 
+  </void> 
+  <void method="setProperty"> 
+   <string>i18n.keyPrefix</string> 
+   <string>AccomulationRegistryView</string> 
+  </void> 
+  <void property="contentType"> 
+   <string>form/swing</string> 
+  </void> 
+  <void property="root"> 
+   <object class="com.jformdesigner.model.FormRoot"> 
+    <void method="add"> 
+     <object class="com.jformdesigner.model.FormContainer"> 
+      <string>javax.swing.JPanel</string> 
+      <object class="com.jformdesigner.model.FormLayoutManager"> 
+       <class>org.jdesktop.layout.GroupLayout</class> 
+       <void method="setProperty"> 
+        <string>$horizontalGroup</string> 
+        <string>par l {seq l {space :p:12:p, par l {comp jlbStore::l:p::p, comp jlbDate::l:p::p, comp jlbResource::l:p::p, comp jlbAmount::l:p::p, comp jlbOperation::l:p::p, comp jlbDocument::l:p::p}, space :::p, par l:::p {comp jtfAmount:::p:107:p, comp jcbOperation::l:::x:1, comp jcbStore::l::178:x:1, comp jcbResource::l:::x:1, comp jcbDocument::l:p:297:p:1, comp jdcDate::l:p:129:p}, space :p:38:p}}</string> 
+       </void> 
+       <void method="setProperty"> 
+        <string>$verticalGroup</string> 
+        <string>par l {seq l {space :p:17:p, par l {comp jlbDate:::p::p, comp jdcDate:::p::p}, space :::p, par b {comp jlbStore::b:p::p, comp jcbStore::b:p::p}, space :::p, par b {comp jlbResource::b:p::p, comp jcbResource::b:p::p}, space :::p, par b {comp jlbAmount::b:p::p, comp jtfAmount::b:p::p}, space :::p, par b {comp jlbOperation::b:p::p, comp jcbOperation::b:p::p}, space :::p, par b {comp jlbDocument::b:p::p, comp jcbDocument::b:p::p}, space ::35:x}}</string> 
+       </void> 
+      </object> 
+      <void property="name"> 
+       <string>this</string> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>AccomulationRegistryView.jlbDate.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jlbDate</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>AccomulationRegistryView.jlbStore.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jlbStore</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>AccomulationRegistryView.jlbResource.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jlbResource</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>AccomulationRegistryView.jlbOperation.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jlbOperation</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>AccomulationRegistryView.jlbAmount.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jlbAmount</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JLabel</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <object class="com.jformdesigner.model.FormMessage"> 
+          <null/> 
+          <string>AccomulationRegistryView.jlbDocument.text</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jlbDocument</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>com.toedter.calendar.JDateChooser</string> 
+        <void method="setProperty"> 
+         <string>dateFormatString</string> 
+         <string>dd.MM.yyyy mm:ss</string> 
+        </void> 
+        <void method="setProperty"> 
+         <string>enabled</string> 
+         <boolean>false</boolean> 
+        </void> 
+        <void property="name"> 
+         <string>jdcDate</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JComboBox</string> 
+        <void property="name"> 
+         <string>jcbStore</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JComboBox</string> 
+        <void property="name"> 
+         <string>jcbResource</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JTextField</string> 
+        <void method="setProperty"> 
+         <string>editable</string> 
+         <boolean>false</boolean> 
+        </void> 
+        <void property="name"> 
+         <string>jtfAmount</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JComboBox</string> 
+        <void property="name"> 
+         <string>jcbOperation</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JComboBox</string> 
+        <void property="name"> 
+         <string>jcbDocument</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+     <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+      <null/> 
+      <void method="setProperty"> 
+       <string>location</string> 
+       <object class="java.awt.Point"> 
+        <int>0</int> 
+        <int>0</int> 
+       </object> 
+      </void> 
+      <void method="setProperty"> 
+       <string>size</string> 
+       <object class="java.awt.Dimension"> 
+        <int>425</int> 
+        <int>200</int> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

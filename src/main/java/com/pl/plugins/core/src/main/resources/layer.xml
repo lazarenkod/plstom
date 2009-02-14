@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filesystem>         
+    <folder name="" displayName="">
+       <attr name="instanceClass" stringvalue="com.pl.plugins.core.ui"/>
+       <attr name="displayName" stringvalue=""/>
+       <attr name="name" stringvalue=""/>
+       </folder>
+</filesystem>
+<!--<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">-->

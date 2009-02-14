@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 1.0" "http://jpf.sourceforge.net/plugin_1_0.dtd">
+<plugin id="com.pl.plugins.visits" version="0.0.1"
+	class="com.pl.plugins.visits.VisitsPlugin">
+	<runtime>
+		<library id="com.pl.plugins.visits" path="/" type="code">
+			<export prefix="*" />
+		</library>
+        <library id="swingx" path="lib/swingx-0.9.2.jar" type="code">
+        </library>
+        <library id="jgoodies" path="lib/forms-1.0.7.jar" type="code">
+        </library>
+    </runtime>
+	<extension-point id="PlPlugin">
+		<parameter-def id="class" />
+		<parameter-def id="name" />
+		<parameter-def id="description" multiplicity="none-or-one" />
+		<parameter-def id="icon" multiplicity="none-or-one" />
+	</extension-point>
+</plugin>

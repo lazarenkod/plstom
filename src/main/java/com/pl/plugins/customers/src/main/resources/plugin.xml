@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!DOCTYPE plugin PUBLIC "-//JPF//Java Plug-in Manifest 1.0" "http://jpf.sourceforge.net/plugin_1_0.dtd">
+<plugin id="com.pl.plugins.customers" version="0.0.5">
+	<requires>
+		<import plugin-id="com.pl.plugins.core" />
+	</requires>
+	<runtime>
+		<library id="customersplugin" path="/" type="code">
+		</library>
+		<library type="resources" path="icons/" id="icons" />
+	</runtime>
+	<extension plugin-id="com.pl.plugins.core" point-id="PLPlugin"
+		id="customersPlPlugin">
+		<parameter id="class"
+			value="com.pl.plugins.customers.CustomerPlugin" />
+		<parameter id="name" value="Code Colorer Tool" />
+		<parameter id="description"
+			value="Tool to colorize source code text" />
+		<parameter id="icon" value="codecolorer.gif" />
+        <parameter id="springConfig" value="com/pl/plugins/customers/pluginContext.xml"/>
+    </extension>
+</plugin>

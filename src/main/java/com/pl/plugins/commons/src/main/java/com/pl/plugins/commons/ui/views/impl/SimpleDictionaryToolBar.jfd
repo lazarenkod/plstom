@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_04" class="java.beans.XMLDecoder"> 
+ <object class="com.jformdesigner.model.FormModel"> 
+  <void property="contentType"> 
+   <string>form/swing</string> 
+  </void> 
+  <void property="root"> 
+   <object class="com.jformdesigner.model.FormRoot"> 
+    <void method="add"> 
+     <object class="com.jformdesigner.model.FormContainer"> 
+      <string>javax.swing.JToolBar</string> 
+      <object class="com.jformdesigner.model.FormLayoutManager"> 
+       <class>javax.swing.JToolBar</class> 
+      </object> 
+      <void method="setProperty"> 
+       <string>floatable</string> 
+       <boolean>false</boolean> 
+      </void> 
+      <void property="name"> 
+       <string>jtbToolBar</string> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <string>New</string> 
+        </void> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/document_new.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbNew</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JToolBar$Separator</string> 
+        <void property="name"> 
+         <string>separator3</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <string>Edit</string> 
+        </void> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/document_edit.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbEdit</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JToolBar$Separator</string> 
+        <void property="name"> 
+         <string>separator4</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <string>Delete</string> 
+        </void> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/document_delete.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbDelete</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JToolBar$Separator</string> 
+        <void property="name"> 
+         <string>separator1</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <string>Refresh</string> 
+        </void> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/document_refresh.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbRefresh</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JToolBar$Separator</string> 
+        <void property="name"> 
+         <string>separator2</string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.jformdesigner.model.FormComponent"> 
+        <string>javax.swing.JButton</string> 
+        <void method="setProperty"> 
+         <string>text</string> 
+         <string>Find</string> 
+        </void> 
+        <void method="setProperty"> 
+         <string>icon</string> 
+         <object class="com.jformdesigner.model.SwingIcon"> 
+          <int>0</int> 
+          <string>/com/pl/plugins/commons/ui/views/impl/document_find.png</string> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>jbFind</string> 
+        </void> 
+       </object> 
+      </void> 
+     </object> 
+     <object class="com.jformdesigner.model.FormLayoutConstraints"> 
+      <null/> 
+      <void method="setProperty"> 
+       <string>location</string> 
+       <object class="java.awt.Point"> 
+        <int>0</int> 
+        <int>0</int> 
+       </object> 
+      </void> 
+     </object> 
+    </void> 
+   </object> 
+  </void> 
+ </object> 
+</java> 

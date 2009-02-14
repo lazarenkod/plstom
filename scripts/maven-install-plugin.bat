@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=%1 -DgroupId=org.jdesktop.beansbinding -DartifactId=beansbinding -Dversion=1.2.1 -Dpackaging=jar -DgeneratePom=true
