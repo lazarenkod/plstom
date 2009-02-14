@@ -20,9 +20,9 @@ import java.util.MissingResourceException;
 
 public class AbstractTopComponent<C extends AbstractController>
         extends JPanel
-        implements  VisualForm {
+        implements VisualForm {
 
-    protected C controller = (C) new DefaultController();           
+    protected C controller = (C) new DefaultController();
 
     private boolean isCloseAlreadyChecked = false;
 
@@ -51,7 +51,7 @@ public class AbstractTopComponent<C extends AbstractController>
         ValidationUtils.removeValidationResultWindow(this);
     }
 
-    
+
     protected void componentActivated() {
         ValidationUtils.activateValidationResultWindow(this);
     }
@@ -65,20 +65,21 @@ public class AbstractTopComponent<C extends AbstractController>
 
     }
 
-    public void activate(boolean flag) {
-    }
-
-
     public JPanel getViewComponent() {
         return this;
     }
 
+    public JToolBar getToolBar() {
+        return toolBar;
+    }
 
-//    public SystemAction[] getToolBarActions() {
-//        return null;
-//    }
+    public void setToolBar(JToolBar value) {
+        this.toolBar = value;
+    }
 
+    public void bind() {
 
+    }
 
     public void open() {
 //        super.open(); fixme

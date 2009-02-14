@@ -8,6 +8,5 @@ package com.pl.plugins.commons.ui.uinew.model;
  */
 public interface IPublisher {
     void subscribe(IModelSubscriber subscriber);
-         ///s    sdfsd
     void unsubscribe(IModelSubscriber subscriber);
 }
