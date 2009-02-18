@@ -51,7 +51,6 @@ public class MainForm extends JFrame implements IMainForm {
     }
 
     public void attachPlugin(JPanel panel, String tabTitle) {
-
         jtpPluginTabPanel.addTab(tabTitle, panel);
         jtpPluginTabPanel.setSelectedComponent(panel);
     }
@@ -136,6 +135,10 @@ public class MainForm extends JFrame implements IMainForm {
         setSize(840, 535);
         setLocationRelativeTo(getOwner());
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
+    }
+
+    public JTabbedPane getJtpPluginTabPanel() {
+        return jtpPluginTabPanel;
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables

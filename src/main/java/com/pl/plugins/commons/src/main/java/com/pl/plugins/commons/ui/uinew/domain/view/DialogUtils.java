@@ -1,11 +1,6 @@
-package com.pl.plugins.commons.ui.uinew.domain.view.validation.ui;
-
-import com.pl.plugins.commons.ui.uinew.domain.view.i18n.NbBundle;
-import com.pl.plugins.commons.ui.utils.dialog.impl.DialogDescriptor;
+package com.pl.plugins.commons.ui.uinew.domain.view;
 
 import javax.swing.*;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowAdapter;
 import java.awt.event.ActionListener;
 import java.util.logging.Logger;
 
@@ -78,13 +73,13 @@ public class DialogUtils {
 //        );
 //        return DialogDisplayer.getDefault().notify(nd);
 //    }
-    public static Object showCloseConfirmationDialog() {
+    public static DialogResult showCloseConfirmationDialog() {
         switch (JOptionPane.showConfirmDialog(null, "Данные были изменены.Вы уверены что хотите выйти?", "Внимание", JOptionPane.YES_NO_OPTION)) {
             case JOptionPane.NO_OPTION:
-                System.out.println("No");
-                break;
+                return DialogResult.NO;
             case JOptionPane.YES_OPTION:
-                System.out.println("Yes");
+                return DialogResult.YES;
+            default:
                 break;
         }
         return null;

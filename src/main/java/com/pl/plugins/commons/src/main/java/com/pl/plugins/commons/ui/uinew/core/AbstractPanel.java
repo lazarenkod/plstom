@@ -1,9 +1,9 @@
 package com.pl.plugins.commons.ui.uinew.core;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import com.jgoodies.binding.PresentationModel;
 import com.pl.plugins.commons.ui.uinew.domain.view.validation.SimplePresentationModel;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 import javax.swing.*;
 
@@ -128,8 +128,7 @@ public abstract class AbstractPanel<C>
     }
 
 
-    public void setPresentationModel(
-            SimplePresentationModel presentationModel) {
+    public void setPresentationModel(SimplePresentationModel presentationModel) {
         this.presentationModel = presentationModel;
     }
 

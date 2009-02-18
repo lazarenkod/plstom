@@ -39,7 +39,6 @@ public class BeanHelper {
      * @return display label code value or <code>null</code> if this property is defined or bean is not instance of the class AbstractBindingModelDTO
      * @throws NullPointerException if bean is null.
      */
-    // TODO make this method more common.
     @SuppressWarnings({"AssignmentToNull"})
     public static String getDisplayLabelCode(final Object bean) {
         String value = null;

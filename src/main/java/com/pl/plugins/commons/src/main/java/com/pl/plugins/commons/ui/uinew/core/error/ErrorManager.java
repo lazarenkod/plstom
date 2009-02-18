@@ -22,4 +22,11 @@ public class ErrorManager {
     public void log(String type,String message){
                //TODO Сделать ErrorManager 
     }
+
+    public void log(String message){
+               //TODO Сделать ErrorManager
+    }
+    public void notify(Exception ex){
+        //todo
+    }
 }

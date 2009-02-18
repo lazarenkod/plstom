@@ -1,10 +1,11 @@
 package com.pl.plugins.commons.ui.uinew.core.serialize;
 
+import com.pl.plugins.commons.ui.uinew.core.error.ErrorManager;
+
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-import java.util.logging.ErrorManager;
 /**
  * Created by IntelliJ IDEA.
  * User: Lazarenko.Dmitry
@@ -61,7 +62,7 @@ public class ObjectClonner {
             return ois.readObject();
 
         } catch (ClassNotFoundException e) {
-// fixme           ErrorManager.getDefault().log("Exception when deserializing " + oldObj.getClass().getName() + " class");
+           ErrorManager.getDefault().log("Exception when deserializing " + oldObj.getClass().getName() + " class");
 //            ErrorManager.getDefault().notify(e);
             throw new RuntimeException(e);
 

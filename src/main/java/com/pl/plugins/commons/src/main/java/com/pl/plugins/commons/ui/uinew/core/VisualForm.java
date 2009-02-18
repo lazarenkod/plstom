@@ -22,38 +22,7 @@ import com.jgoodies.binding.PresentationModel;
  * @since 1.9
  */
 public interface VisualForm<T, C> {
-
-    /**
-     * Методы вызывается при открытии новой формы
-     * @param data
-     * @deprecated Метод будет удалён. Вместо него использовать {@link #doOpen()}.
-     */
-    void open(T data);
-
-
-    /**
-     * Методы вызывается при открытии формы для редактирование
-     * @param data
-     * @deprecated Метод будет удалён. Вместо него использовать {@link #doEdit()}.
-     */
-    void edit(T data);
-
-
-    /**
-     * Метод вызывается при открытии формы на просмотр
-     * @param data
-     * @deprecated Метод будет удалён. Вместо него использовать {@link #doView()}.
-     */
-    void view(T data);
-
-    /**
-     * Метод вызывается при открытии формы на просмотра/редактирования перед удалением
-     * @param data
-     * @deprecated Метод будет удалён. Вместо него использовать {@link #doClose()}.
-     */
-    void close(T data);
-
-    /**
+     /**
      * Методы вызывается при открытии новой формы
 //     * @param data
      */

@@ -2,8 +2,23 @@ package com.pl.plugins.commons.ui.uinew.util.runner;
 
 import org.jdesktop.swingworker.SwingWorker.StateValue;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.AbstractAction;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JComponent;
+import javax.swing.JFormattedTextField;
+import javax.swing.JLabel;
+import javax.swing.JProgressBar;
+import javax.swing.JRadioButton;
+import javax.swing.JScrollBar;
+import javax.swing.JTable;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+import java.awt.Component;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
@@ -11,6 +26,8 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.logging.Logger;
+
+import com.pl.plugins.commons.ui.uinew.domain.view.i18n.NbBundle;
 
 /**
 * <pre>
@@ -110,8 +127,8 @@ final class SwingWorkerListener implements PropertyChangeListener {
     public void propertyChange(final PropertyChangeEvent evt) {
         if (kindVisualBehavior == null) {
 
-//          fixme  String message = NbBundle.getMessage(getClass(), "SwingWorkerListener.NOT_SET_VISUAL_BEHA");
-//            throw new NullPointerException(message);
+            String message = NbBundle.getMessage(getClass(), "SwingWorkerListener.NOT_SET_VISUAL_BEHA");
+            throw new NullPointerException(message);
         }
         String propertyName = evt.getPropertyName();
         if (propertyName.compareTo("state") == 0) {
@@ -340,8 +357,8 @@ final class SwingWorkerListener implements PropertyChangeListener {
             logger.warning("impossible");
             // такого быть вообще то не должно
         } else {
-//          fixme  String template = NbBundle.getMessage(getClass(), "SwingWorkerListener.BadClass");
-//            logger.warning(String.format(template, newValue.getClass().getName()));
+        String template = NbBundle.getMessage(getClass(), "SwingWorkerListener.BadClass");
+       logger.warning(String.format(template, newValue.getClass().getName()));
         }
     }
 
