@@ -73,16 +73,22 @@ public class DialogUtils {
 //        );
 //        return DialogDisplayer.getDefault().notify(nd);
 //    }
-    public static DialogResult showCloseConfirmationDialog() {
-        switch (JOptionPane.showConfirmDialog(null, "Данные были изменены.Вы уверены что хотите выйти?", "Внимание", JOptionPane.YES_NO_OPTION)) {
+
+    public static DialogResult showConfirmDialog(String messageText,String messageHeader,int options) {
+        switch (JOptionPane.showConfirmDialog(null, messageText, messageHeader, options)) {
             case JOptionPane.NO_OPTION:
                 return DialogResult.NO;
             case JOptionPane.YES_OPTION:
                 return DialogResult.YES;
+            case JOptionPane.CANCEL_OPTION:
+                return DialogResult.CANCEL;
             default:
-                break;
+                return null;
         }
-        return null;
+    }
+
+    public static DialogResult showCloseConfirmationDialog() {
+        return showConfirmDialog("Данные были изменены.Вы уверены что хотите выйти?", "Внимание", JOptionPane.YES_NO_OPTION);
     }
 
 }

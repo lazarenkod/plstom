@@ -15,7 +15,8 @@ import com.pl.plugins.commons.ui.uinew.domain.view.validation.SimplePresentation
 import com.pl.plugins.commons.ui.uinew.domain.view.validation.ValidationUtils;
 import com.pl.plugins.core.ui.TopComponent;
 
-import javax.swing.*;
+import javax.swing.JPanel;
+import javax.swing.JToolBar;
 import java.util.MissingResourceException;
 
 

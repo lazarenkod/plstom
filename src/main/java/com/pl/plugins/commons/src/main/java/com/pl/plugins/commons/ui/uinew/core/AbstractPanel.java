@@ -102,22 +102,6 @@ public abstract class AbstractPanel<C>
     }
 
 
-    public void open(Object data) {
-    }
-
-
-    public void edit(Object data) {
-    }
-
-
-    public void view(Object data) {
-    }
-
-
-    public void close(Object data) {
-    }
-
-
     public C getController() {
         return controler == null ? (C) (ownerTopComponent != null ? ownerTopComponent.getController() : null) : controler;
     }
