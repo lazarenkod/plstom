@@ -12,7 +12,7 @@ import javax.swing.*;
  * Time: 17:07:37
  */
 public abstract class TopComponent  extends JPanel{
-
+                  
     private WindowManager windowManager;
     protected String title=""; 
 
