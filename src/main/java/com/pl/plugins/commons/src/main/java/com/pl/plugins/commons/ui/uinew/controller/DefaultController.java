@@ -1,4 +1,4 @@
-package com.pl.plugins.commons.ui.uinew.core;
+package com.pl.plugins.commons.ui.uinew.controller;
 
 import java.io.IOException;
 

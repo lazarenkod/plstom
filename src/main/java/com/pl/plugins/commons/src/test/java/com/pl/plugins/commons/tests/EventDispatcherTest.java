@@ -1,8 +1,8 @@
 package com.pl.plugins.commons.tests;
 
-import com.pl.plugins.commons.ui.uinew.core.EventDispatcher;
-import com.pl.plugins.commons.ui.uinew.core.Message;
-import com.pl.plugins.commons.ui.uinew.core.EventType;
+import com.pl.plugins.commons.ui.uinew.core.messages.EventDispatcher;
+import com.pl.plugins.commons.ui.uinew.core.messages.Message;
+import com.pl.plugins.commons.ui.uinew.core.messages.EventType;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

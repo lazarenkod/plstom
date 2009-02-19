@@ -62,4 +62,8 @@ public class WindowManager {
         mainForm.getJtpPluginTabPanel().remove(tc);
 
     }
+
+    public void setActivePanel(TopComponent tc) {
+        mainForm.getJtpPluginTabPanel().setSelectedComponent(tc);
+    }
 }

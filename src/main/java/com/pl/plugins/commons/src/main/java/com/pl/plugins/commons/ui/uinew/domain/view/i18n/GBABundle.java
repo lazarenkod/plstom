@@ -6,7 +6,7 @@ import org.apache.commons.logging.LogFactory;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-import com.pl.plugins.commons.ui.uinew.core.AbstractBindingModelDTO;
+import com.pl.plugins.commons.ui.uinew.core.binding.AbstractBindingModelDTO;
 
 /**
  * Created by IntelliJ IDEA.

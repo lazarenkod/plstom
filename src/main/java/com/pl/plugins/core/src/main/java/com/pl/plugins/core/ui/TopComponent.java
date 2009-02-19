@@ -21,13 +21,6 @@ public abstract class TopComponent  extends JPanel{
     }
 
     /**
-     * @return Предпочтительный ID topComponent-а
-     */
-    public String getPrefferedId() {
-        return null;
-    }
-
-    /**
      * @return Название которое будет отображаться в заголовке вкладки
      */
     public String getTitle() {
@@ -46,5 +39,9 @@ public abstract class TopComponent  extends JPanel{
      */
     public void close(){
         windowManager.removePanel(this);
+    }
+
+    public void requestActive(){
+        windowManager.setActivePanel(this);
     }
 }

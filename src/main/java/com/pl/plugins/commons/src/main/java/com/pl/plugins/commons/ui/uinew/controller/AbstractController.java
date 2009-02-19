@@ -1,16 +1,16 @@
-package com.pl.plugins.commons.ui.uinew.core;
+package com.pl.plugins.commons.ui.uinew.controller;
 
-import com.pl.plugins.commons.ui.uinew.core.VisualForm;
-import com.pl.plugins.commons.ui.uinew.core.TaskSettings;
+
+import com.pl.plugins.commons.ui.uinew.util.runner.TaskSettings;
 import com.pl.plugins.commons.ui.uinew.core.serialize.ObjectClonner;
 import com.pl.plugins.commons.ui.uinew.util.runner.TaskRunner;
 import com.pl.plugins.commons.ui.uinew.util.runner.TaskRunnerKindVisualBehavior;
 import com.pl.plugins.commons.ui.uinew.util.runner.Cancellable;
+import com.pl.plugins.commons.ui.uinew.view.VisualForm;
+import com.pl.plugins.core.ui.TopComponent;
+import com.jgoodies.binding.PresentationModel;
 
 import javax.swing.*;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Collection;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Logger;
 import java.io.IOException;
@@ -58,8 +58,6 @@ public class AbstractController<V, T, E> {
 
     private TaskSettings settings = new TaskSettings();
 
-    private Map<Class, Map> cache = new HashMap<Class, Map>();
-
     /**
      * Режим, в котором запущен контроллер
      */
@@ -72,7 +70,6 @@ public class AbstractController<V, T, E> {
 
 
     public AbstractController() {
-        cache = new HashMap<Class, Map>();
     }
 
 
@@ -129,16 +126,16 @@ public class AbstractController<V, T, E> {
                     if (getVisualForm() != null) {
                         switch (openMode) {
                             case MODE_NEW:
-                                getVisualForm().open(result);
+                                getVisualForm().doOpen();
                                 break;
                             case MODE_EDIT:
-                                getVisualForm().edit(result);
+                                getVisualForm().doEdit();
                                 break;
                             case MODE_VIEW:
-                                getVisualForm().view(result);
+                                getVisualForm().doView();
                                 break;
                             case MODE_CLOSE:
-                                getVisualForm().close(result);
+                                getVisualForm().doClose();
                                 break;
                         }
                         openVisualForm();
@@ -163,11 +160,10 @@ public class AbstractController<V, T, E> {
      * Обновление бина в PresentationModel
      */
     private void updatePresentationModel() {
-        //TODO закомментировано до тех пор, пока все PresentationModel не станут работать с декораторами
-/*        PresentationModel model = getVisualForm().getPresentationModel();
+        PresentationModel model = getVisualForm().getPresentationModel();
         if (model != null) {
             model.setBean(getDataObject());
-        }*/
+        }
     }
 
 
@@ -194,10 +190,10 @@ public class AbstractController<V, T, E> {
      */
     protected void openVisualForm() {
         VisualForm form = getVisualForm();
-// fixme Сделать класс TopComponent  if (form instanceof TopComponent) {
-//            ((TopComponent) form).open();
-//            ((TopComponent) form).requestActive();
-//        }
+     if (form instanceof TopComponent) {
+            ((TopComponent) form).open();
+            ((TopComponent) form).requestActive();
+        }
     }
 
 
@@ -259,57 +255,6 @@ public class AbstractController<V, T, E> {
     public static Object cloneObject(Object oldObj, ClassLoader classLoader) throws IOException, ClassNotFoundException {
         return ObjectClonner.cloneObject(oldObj, classLoader);
     }
-
-
-    /**
-     * Put value in cache
-     *
-     * @param id
-     * @param object
-     */
-    public void cacheValue(Object id, Object object) {
-        Map valuesCache = cache.get(object.getClass());
-        if (valuesCache == null) {
-            valuesCache = new HashMap();
-            cache.put(object.getClass(), valuesCache);
-        }
-        valuesCache.put(id, object);
-    }
-
-
-    public void cacheCollection(Object id, Collection values, Class collectionClass) {
-        Map valuesCache = cache.get(collectionClass);
-        if (valuesCache == null) {
-            valuesCache = new HashMap();
-            cache.put(collectionClass, valuesCache);
-        }
-        valuesCache.put(id, values);
-    }
-
-
-    protected void removeFromCache(Object key, Object object) {
-        Map valuesCache = cache.get(object.getClass());
-        if (valuesCache != null) {
-            valuesCache.remove(key);
-        }
-    }
-
-
-    /**
-     * Get value from cache
-     *
-     * @param objectClass
-     * @param id
-     * @return
-     */
-    public Object getCachedValue(Object id, Class objectClass) {
-        Map valuesCache = cache.get(objectClass);
-        if (valuesCache == null) {
-            return null;
-        }
-        return (T) valuesCache.get(id);
-    }
-
 
     /**
      * Возвращает объект, который был изначально загружен для редактирования

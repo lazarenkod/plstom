@@ -1,4 +1,4 @@
-package com.pl.plugins.commons.ui.uinew.core;
+package com.pl.plugins.commons.ui.uinew.core.messages;
 
 import com.google.common.collect.HashMultimap;
 import org.apache.log4j.Logger;

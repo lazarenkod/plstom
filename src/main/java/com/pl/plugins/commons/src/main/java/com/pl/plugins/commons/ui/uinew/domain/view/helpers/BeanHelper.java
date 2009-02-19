@@ -15,7 +15,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
 
-import com.pl.plugins.commons.ui.uinew.core.AbstractBindingModelDTO;
+import com.pl.plugins.commons.ui.uinew.core.binding.AbstractBindingModelDTO;
 
 /**
  * Class, which collects several utility methods to use with beans.

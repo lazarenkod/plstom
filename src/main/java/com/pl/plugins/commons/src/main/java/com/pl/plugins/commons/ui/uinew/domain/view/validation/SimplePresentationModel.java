@@ -21,7 +21,7 @@ import com.pl.plugins.commons.ui.uinew.domain.view.i18n.IGBABundle;
 import com.pl.plugins.commons.ui.uinew.domain.view.i18n.GBABundle;
 import com.pl.plugins.commons.ui.uinew.domain.view.validation.validators.IValidator;
 import com.pl.plugins.commons.ui.uinew.domain.view.validation.validators.DefaultAnnotationValidator;
-import com.pl.plugins.commons.ui.uinew.core.AbstractBindingModelDTO;
+import com.pl.plugins.commons.ui.uinew.core.binding.AbstractBindingModelDTO;
 
 import javax.swing.*;
 import java.awt.*;

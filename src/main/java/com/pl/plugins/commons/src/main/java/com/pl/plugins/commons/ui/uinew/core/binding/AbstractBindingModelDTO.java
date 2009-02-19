@@ -1,4 +1,4 @@
-package com.pl.plugins.commons.ui.uinew.core;
+package com.pl.plugins.commons.ui.uinew.core.binding;
 
 import com.jgoodies.binding.beans.Model;
 import java.beans.PropertyChangeListener;
@@ -72,25 +72,4 @@ public abstract class AbstractBindingModelDTO extends Model {
             }
         }
     }
-
-//    @Override
-//    public boolean equals(final Object o) {
-//        if (this == o) {
-//            return true;
-//        }
-//        if (!(o instanceof AbstractBindingModelDTO)) {
-//            return false;
-//        }
-//
-//        return EqualsBuilder.reflectionEquals(this, o, excluded());
-//    }
-//
-//    private static String[] excluded() {
-//        return new String[]{"changeSupport", "vetoSupport"};
-//    }
-
-//    @Override
-//    public int hashCode() {
-//        return HashCodeBuilder.reflectionHashCode(this, excluded());
-//    }
 }

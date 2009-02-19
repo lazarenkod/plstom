@@ -1,4 +1,4 @@
-package com.pl.plugins.commons.ui.uinew.core;
+package com.pl.plugins.commons.ui.uinew.util.runner;
 
 import javax.swing.JComponent;
 
