@@ -45,7 +45,7 @@
     <orderEntry type="library" exported="" name="Maven: net.sf.jpf:jpf:1.5" level="project" />
     <orderEntry type="library" exported="" name="Maven: org.swinglabs:swing-layout:1.0.3" level="project" />
     <orderEntry type="library" exported="" name="Maven: com.jgoodies:forms:1.0.7" level="project" />
-    <orderEntry type="library" exported="" name="Maven: org.jdesktop.beansbinding:beansbinding:1.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Maven: net.java.dev.beansbinding:beansbinding:1.2.1" level="project" />
     <orderEntry type="library" exported="" name="Maven: hibernate:hibernate-annotations:3.0beta1" level="project" />
     <orderEntry type="library" exported="" name="Maven: commons-digester:commons-digester:1.8" level="project" />
     <orderEntry type="library" exported="" name="Maven: commons-beanutils:commons-beanutils:1.7.0" level="project" />

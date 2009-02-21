@@ -18,10 +18,11 @@ import javax.swing.UnsupportedLookAndFeelException;
 /**
  * Класс который должен управлять взаимодействиями с окнами
  */
-public class WindowManager {
+public class WindowManager implements IWindowManager {
     private MainForm mainForm;
 
-    private WindowManager() {
+    private WindowManager(MainForm mainForm) {
+        this.mainForm=mainForm;
         initLookAndFeel();
     }
 

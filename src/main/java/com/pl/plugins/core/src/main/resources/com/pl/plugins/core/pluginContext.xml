@@ -60,9 +60,7 @@
             
     <bean id="mainForm" class="com.pl.plugins.core.ui.impl.MainForm"/>
     <bean id="windowManager" class="com.pl.plugins.core.WindowManager">
-        <property name="mainForm">
-            <ref local="mainForm"/>
-        </property>
+        <constructor-arg ref="mainForm"/>
     </bean>
     <!--<bean id="mainFormFactoryBean" class="org.springframework.aop.scope.ScopedProxyFactoryBean">-->
     <!--<property name="targetBeanName" value="mainForm"/>-->

@@ -73,6 +73,35 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
+  <component name="DynamicElementsStorage">
+    <option name="containingClasses">
+      <map>
+        <entry key="script">
+          <value>
+            <DClassElement>
+              <option name="name" value="script" />
+              <option name="myName" value="script" />
+              <option name="myNamesToProperties">
+                <map>
+                  <entry key="result">
+                    <value>
+                      <DPropertyElement>
+                        <option name="name" value="result" />
+                        <option name="type" value="java.lang.Object" />
+                        <option name="myType" value="java.lang.Object" />
+                        <option name="myStatic" value="false" />
+                        <option name="myName" value="result" />
+                      </DPropertyElement>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </DClassElement>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="EclipseCompilerSettings">
     <option name="DEBUGGING_INFO" value="true" />
     <option name="GENERATE_NO_WARNINGS" value="true" />
@@ -139,7 +168,7 @@
     <option name="DEBUGGING_INFO" value="true" />
     <option name="GENERATE_NO_WARNINGS" value="false" />
     <option name="DEPRECATION" value="true" />
-    <option name="ADDITIONAL_OPTIONS_STRING" value="" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-target 1.5" />
     <option name="MAXIMUM_HEAP_SIZE" value="128" />
   </component>
   <component name="JavadocGenerationManager">
@@ -830,17 +859,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/forms/1.0.7/forms-1.0.7-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: org.jdesktop.beansbinding:beansbinding:1.2.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jdesktop/beansbinding/beansbinding/1.2.1/beansbinding-1.2.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jdesktop/beansbinding/beansbinding/1.2.1/beansbinding-1.2.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/org/jdesktop/beansbinding/beansbinding/1.2.1/beansbinding-1.2.1-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: hibernate:hibernate-annotations:3.0beta1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/hibernate/hibernate-annotations/3.0beta1/hibernate-annotations-3.0beta1.jar!/" />
@@ -962,28 +980,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/google/collections/google-collections/0.8/google-collections-0.8-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: com.jgoodies:validation:1.0">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/validation/1.0/validation-1.0.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/validation/1.0/validation-1.0-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/validation/1.0/validation-1.0-sources.jar!/" />
-      </SOURCES>
-    </library>
-    <library name="Maven: com.jgoodies:validation:2.0.1">
-      <CLASSES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/validation/2.0.1/validation-2.0.1.jar!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/validation/2.0.1/validation-2.0.1-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/validation/2.0.1/validation-2.0.1-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: com.jgoodies:validation:2.0.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/com/jgoodies/validation/2.0.0/validation-2.0.0.jar!/" />
@@ -1002,6 +998,17 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$PROJECT_DIR$/lib/intellij_forms_rt_src.zip!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.java.dev.beansbinding:beansbinding:1.2.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/beansbinding/beansbinding/1.2.1/beansbinding-1.2.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/beansbinding/beansbinding/1.2.1/beansbinding-1.2.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/beansbinding/beansbinding/1.2.1/beansbinding-1.2.1-sources.jar!/" />
       </SOURCES>
     </library>
   </component>

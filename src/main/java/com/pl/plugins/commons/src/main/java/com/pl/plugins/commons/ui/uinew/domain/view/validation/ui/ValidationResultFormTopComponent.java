@@ -2,7 +2,10 @@ package com.pl.plugins.commons.ui.uinew.domain.view.validation.ui;
 
 import com.pl.plugins.commons.ui.uinew.domain.view.i18n.NbBundle;
 import com.pl.plugins.commons.ui.uinew.core.error.ErrorManager;
-import com.pl.plugins.commons.ui.uinew.core.ui.WindowManager;
+import com.pl.plugins.core.WindowManager;
+import com.pl.plugins.core.CorePlugin;
+import com.pl.plugins.core.IWindowManager;
+
 
 import javax.swing.*;
 import java.io.Serializable;
@@ -74,7 +77,7 @@ public final class ValidationResultFormTopComponent extends JPanel {
      * Obtain the ValidationResultFormTopComponent instance. Never call {@link #getDefault} directly!
      */
     public static synchronized ValidationResultFormTopComponent findInstance() {
-        JPanel win = WindowManager.getDefault().findTopComponent(PREFERRED_ID);
+        JPanel win = ((IWindowManager)CorePlugin.getAppContext().getBean("windowManager")).findTopComponent(PREFERRED_ID);
         if (win == null) {
             ErrorManager.getDefault().log(ErrorManager.WARNING, "Cannot find ValidationResultForm component. It will not be located properly in the window system.");
             return getDefault();

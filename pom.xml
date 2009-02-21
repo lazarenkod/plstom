@@ -107,10 +107,10 @@
             <version>1.0.7</version>
         </dependency>
         <dependency>
-            <groupId>org.jdesktop.beansbinding</groupId>
+            <groupId>net.java.dev.beansbinding</groupId>
             <artifactId>beansbinding</artifactId>
             <version>1.2.1</version>
-        </dependency>
+        </dependency>     
         <dependency>
             <groupId>hibernate</groupId>
             <artifactId>hibernate-annotations</artifactId>

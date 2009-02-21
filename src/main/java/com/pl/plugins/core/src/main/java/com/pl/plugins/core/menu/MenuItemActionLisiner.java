@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 
 import com.pl.plugins.core.CorePlugin;
 import com.pl.plugins.core.ui.impl.MainForm;
+import com.pl.plugins.core.ui.IMainForm;
 
 import javax.swing.*;
 
@@ -54,7 +55,7 @@ class MenuItemActionListener implements ActionListener {
                     Object ob = pluginClass.newInstance();
 
                     JPanel pluginContainer = new JPanel();
-                    MainForm mainForm= (MainForm) CorePlugin.getAppContext().getBean("mainForm");
+                    IMainForm mainForm= (MainForm) CorePlugin.getAppContext().getBean("mainForm");
                     mainForm.attachPlugin(pluginContainer, displayName);
 
                     pluginClass.getMethod("init", new Class[]{JComponent.class}).invoke(ob, new Object[]{pluginContainer});

@@ -1,7 +1,7 @@
 package com.pl.plugins.core.ui;
 
 import com.pl.plugins.core.CorePlugin;
-import com.pl.plugins.core.WindowManager;
+import com.pl.plugins.core.IWindowManager;
 
 import javax.swing.*;
 
@@ -13,11 +13,11 @@ import javax.swing.*;
  */
 public abstract class TopComponent  extends JPanel{
                   
-    private WindowManager windowManager;
+    private IWindowManager windowManager;
     protected String title=""; 
 
     protected TopComponent() {
-        windowManager =  (WindowManager) CorePlugin.getAppContext().getBean("windowManager");
+        windowManager =  (IWindowManager) CorePlugin.getAppContext().getBean("windowManager");
     }
 
     /**
