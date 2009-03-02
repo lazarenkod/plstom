@@ -73,35 +73,6 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="DynamicElementsStorage">
-    <option name="containingClasses">
-      <map>
-        <entry key="script">
-          <value>
-            <DClassElement>
-              <option name="name" value="script" />
-              <option name="myName" value="script" />
-              <option name="myNamesToProperties">
-                <map>
-                  <entry key="result">
-                    <value>
-                      <DPropertyElement>
-                        <option name="name" value="result" />
-                        <option name="type" value="java.lang.Object" />
-                        <option name="myType" value="java.lang.Object" />
-                        <option name="myStatic" value="false" />
-                        <option name="myName" value="result" />
-                      </DPropertyElement>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </DClassElement>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="EclipseCompilerSettings">
     <option name="DEBUGGING_INFO" value="true" />
     <option name="GENERATE_NO_WARNINGS" value="true" />
@@ -116,7 +87,9 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
     <option name="MAXIMUM_HEAP_SIZE" value="128" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/pl/plugins/commons/src/main/java/com/pl/plugins/commons/ui/views/implnew/view/DulTopComponent.java" charset="windows-1251" />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>

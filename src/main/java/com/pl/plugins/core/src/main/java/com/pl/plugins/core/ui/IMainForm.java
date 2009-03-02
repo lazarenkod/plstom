@@ -14,5 +14,4 @@ public interface IMainForm {
     JToolBar getMainToolBar();
     void setMainToolBar(JToolBar jtb);
     JToolBar getStatusBar();
-    void attachPlugin(JPanel panel, String tabTitle);
 }

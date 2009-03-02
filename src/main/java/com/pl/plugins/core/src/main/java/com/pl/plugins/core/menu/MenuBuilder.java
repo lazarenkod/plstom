@@ -71,7 +71,7 @@ public class MenuBuilder {
                 JMenuItem menuItem = new JMenuItem();
                 menuItem.setText(displayName);
                 menuItem.setName(name);
-                menuItem.addActionListener(new MenuItemActionListener(instanceClass,displayName));
+                menuItem.addActionListener(new MenuItemActionListener(instanceClass));
 
                 subMenu.add(menuItem);
             }

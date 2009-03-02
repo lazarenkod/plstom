@@ -5,6 +5,7 @@
 package com.pl.plugins.core.ui.impl;
 
 import java.awt.event.*;
+
 import com.pl.plugins.core.ui.IMainForm;
 import com.sun.java.swing.plaf.windows.WindowsLookAndFeel;
 
@@ -31,7 +32,7 @@ public class MainForm extends JFrame implements IMainForm {
         return instance;
     }
 
-    private void initLookAndFeel(){
+    private void initLookAndFeel() {
 
         try {
 
@@ -50,16 +51,11 @@ public class MainForm extends JFrame implements IMainForm {
         SwingUtilities.updateComponentTreeUI(this);
     }
 
-    public void attachPlugin(JPanel panel, String tabTitle) {
-        jtpPluginTabPanel.addTab(tabTitle, panel);
-        jtpPluginTabPanel.setSelectedComponent(panel);
-    }
-
-    public JMenuBar getMainMenuBar() {
+       public JMenuBar getMainMenuBar() {
         return jmbMainMenuBar;
     }
 
-    public JToolBar getMainToolBar(){
+    public JToolBar getMainToolBar() {
         return jtbMainToolBar;
     }
 
@@ -67,27 +63,26 @@ public class MainForm extends JFrame implements IMainForm {
         jtbMainToolBar = value;
     }
 
-    public JToolBar getStatusBar(){
+    public JToolBar getStatusBar() {
         return jtbStatusBar;
     }
 
-    private void jtpPluginTabPanelComponentAdded(ContainerEvent e) {
-        // TODO add your code here
+    public JProgressBar getProgressBar() {
+        return jpbProgress;
     }
 
-    private void jtpPluginTabPanelComponentRemoved(ContainerEvent e) {
-        // TODO add your code here
+    public void setProgressLabelText(String text){
+        labelProgress.setText(text);
     }
-
+    
     private void initComponents() {
 
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Vlad Kimo
         ResourceBundle bundle = ResourceBundle.getBundle("com.pl.plugins.core.ui.resources");
         jmbMainMenuBar = new JMenuBar();
         jtbMainToolBar = new JToolBar();
         jtbStatusBar = new JToolBar();
-        label1 = new JLabel();
+        labelProgress = new JLabel();
         jpbProgress = new JProgressBar();
         jtpPluginTabPanel = new JTabbedPane();
 
@@ -103,9 +98,9 @@ public class MainForm extends JFrame implements IMainForm {
         //======== jtbStatusBar ========
         {
 
-            //---- label1 ----
-            label1.setText(bundle.getString("MainForm.label1.text"));
-            jtbStatusBar.add(label1);
+            //---- labelProgress ----
+            labelProgress.setText(bundle.getString("MainForm.labelProgress.text"));
+            jtbStatusBar.add(labelProgress);
             jtbStatusBar.addSeparator();
 
             //---- jpbProgress ----
@@ -113,24 +108,11 @@ public class MainForm extends JFrame implements IMainForm {
             jpbProgress.setToolTipText(bundle.getString("MainForm.jpbProgress.toolTipText"));
             jpbProgress.setPreferredSize(new Dimension(50, 20));
             jpbProgress.setMaximumSize(new Dimension(150, 20));
+            jpbProgress.setString("10%");
             jtbStatusBar.add(jpbProgress);
             jtbStatusBar.addSeparator();
         }
         contentPane.add(jtbStatusBar, BorderLayout.SOUTH);
-
-        //======== jtpPluginTabPanel ========
-        {
-            jtpPluginTabPanel.addContainerListener(new ContainerAdapter() {
-                @Override
-                public void componentAdded(ContainerEvent e) {
-                    jtpPluginTabPanelComponentAdded(e);
-                }
-                @Override
-                public void componentRemoved(ContainerEvent e) {
-                    jtpPluginTabPanelComponentRemoved(e);
-                }
-            });
-        }
         contentPane.add(jtpPluginTabPanel, BorderLayout.CENTER);
         setSize(840, 535);
         setLocationRelativeTo(getOwner());
@@ -142,11 +124,10 @@ public class MainForm extends JFrame implements IMainForm {
     }
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Vlad Kimo
     private JMenuBar jmbMainMenuBar;
     private JToolBar jtbMainToolBar;
     private JToolBar jtbStatusBar;
-    private JLabel label1;
+    private JLabel labelProgress;
     private JProgressBar jpbProgress;
     private JTabbedPane jtpPluginTabPanel;
     // JFormDesigner - End of variables declaration  //GEN-END:variables

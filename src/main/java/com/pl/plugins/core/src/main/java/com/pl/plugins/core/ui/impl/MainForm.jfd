@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<java version="1.6.0_04" class="java.beans.XMLDecoder"> 
+<java version="1.6.0_10" class="java.beans.XMLDecoder"> 
  <object class="com.jformdesigner.model.FormModel"> 
   <void method="setProperty"> 
    <string>i18n.autoExternalize</string> 
@@ -88,11 +88,11 @@
            <string>text</string> 
            <object class="com.jformdesigner.model.FormMessage"> 
             <null/> 
-            <string>MainForm.label1.text</string> 
+            <string>MainForm.labelProgress.text</string> 
            </object> 
           </void> 
           <void property="name"> 
-           <string>label1</string> 
+           <string>labelProgress</string> 
           </void> 
          </object> 
         </void> 
@@ -132,6 +132,10 @@
             <int>20</int> 
            </object> 
           </void> 
+          <void method="setProperty"> 
+           <string>string</string> 
+           <string>10%</string> 
+          </void> 
           <void property="name"> 
            <string>jpbProgress</string> 
           </void> 
@@ -160,22 +164,6 @@
         <object class="com.jformdesigner.model.FormLayoutManager"> 
          <class>javax.swing.JTabbedPane</class> 
         </object> 
-        <void method="addEvent"> 
-         <object class="com.jformdesigner.model.FormEvent"> 
-          <string>java.awt.event.ContainerListener</string> 
-          <string>componentAdded</string> 
-          <string>jtpPluginTabPanelComponentAdded</string> 
-          <boolean>true</boolean> 
-         </object> 
-        </void> 
-        <void method="addEvent"> 
-         <object class="com.jformdesigner.model.FormEvent"> 
-          <string>java.awt.event.ContainerListener</string> 
-          <string>componentRemoved</string> 
-          <string>jtpPluginTabPanelComponentRemoved</string> 
-          <boolean>true</boolean> 
-         </object> 
-        </void> 
         <void property="name"> 
          <string>jtpPluginTabPanel</string> 
         </void> 
