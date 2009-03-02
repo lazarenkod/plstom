@@ -29,7 +29,7 @@
        <class>org.jdesktop.layout.GroupLayout</class> 
        <void method="setProperty"> 
         <string>$horizontalGroup</string> 
-        <string>par l {seq l {space :::p, par t {seq t {comp buttonSave:::p:116:p, space u:::p, comp button3:::p::p}, comp dulPanel::l:p::p}, space ::22:x}}</string> 
+        <string>par l {seq l {space :::p, par t {seq t {comp buttonSave:::p:116:p, space u:::p, comp button3:::p::p}, comp dulPanel::l:p::p}, space ::12:x}}</string> 
        </void> 
        <void method="setProperty"> 
         <string>$verticalGroup</string> 
@@ -235,22 +235,6 @@
           <boolean>true</boolean> 
          </object> 
         </void> 
-        <void method="addEvent"> 
-         <object class="com.jformdesigner.model.FormEvent"> 
-          <string>java.awt.event.ActionListener</string> 
-          <string>actionPerformed</string> 
-          <string>buttonSaveActionPerformed</string> 
-          <boolean>true</boolean> 
-         </object> 
-        </void> 
-        <void method="addEvent"> 
-         <object class="com.jformdesigner.model.FormEvent"> 
-          <string>java.awt.event.ActionListener</string> 
-          <string>actionPerformed</string> 
-          <string>buttonSaveActionPerformed</string> 
-          <boolean>true</boolean> 
-         </object> 
-        </void> 
        </object> 
       </void> 
       <void method="add"> 
@@ -281,7 +265,7 @@
       <void method="setProperty"> 
        <string>size</string> 
        <object class="java.awt.Dimension"> 
-        <int>345</int> 
+        <int>335</int> 
         <int>260</int> 
        </object> 
       </void> 

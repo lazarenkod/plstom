@@ -192,8 +192,6 @@ public class DulTopComponent extends AbstractTopComponent<DulController> {
         buttonSave.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 buttonSaveActionPerformed(e);
-                buttonSaveActionPerformed(e);
-                buttonSaveActionPerformed(e);
             }
         });
 
@@ -212,7 +210,7 @@ public class DulTopComponent extends AbstractTopComponent<DulController> {
                             .addPreferredGap(LayoutStyle.UNRELATED)
                             .add(button3))
                         .add(GroupLayout.LEADING, dulPanel, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-                    .addContainerGap(22, Short.MAX_VALUE))
+                    .addContainerGap(12, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup()
