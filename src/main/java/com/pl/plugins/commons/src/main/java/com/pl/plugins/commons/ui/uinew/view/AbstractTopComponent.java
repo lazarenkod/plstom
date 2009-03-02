@@ -39,23 +39,23 @@ public class AbstractTopComponent<C extends AbstractController>
         this.controller = controller;
     }
 
-    protected void createValidationResultWindow(SimplePresentationModel model) {
-        ValidationUtils.createValidationResultWindow(model, this);
-    }
-
-
-    protected void activateValidationResultWindow() {
-        ValidationUtils.activateValidationResultWindow(this);
-    }
-
-
-    protected void removeValidationResultWindow() {
-        ValidationUtils.removeValidationResultWindow(this);
-    }
+//    protected void createValidationResultWindow(SimplePresentationModel model) {
+//        ValidationUtils.createValidationResultWindow(model, this);
+//    }
+//
+//
+//    protected void activateValidationResultWindow() {
+//        ValidationUtils.activateValidationResultWindow(this);
+//    }
+//
+//
+//    protected void removeValidationResultWindow() {
+//        ValidationUtils.removeValidationResultWindow(this);
+//    }
 
 
     protected void componentActivated() {
-        ValidationUtils.activateValidationResultWindow(this);
+//        ValidationUtils.activateValidationResultWindow(this);
     }
 
     public JPanel getViewComponent() {
@@ -104,7 +104,7 @@ public class AbstractTopComponent<C extends AbstractController>
             DialogResult dialogResult = showCloseConfirmWindow();
             result = dialogResult.equals(DialogResult.YES);
             if (!result) {
-                //this.requestActive();
+                this.requestActive();
             }
         }
         return result;
@@ -125,9 +125,12 @@ public class AbstractTopComponent<C extends AbstractController>
 
     }
 
-
+    public void initListeneres(){
+        
+    }
+    
     protected void componentClosed() {
-        removeValidationResultWindow();
+//        removeValidationResultWindow();
         //super.close(); 
     }
 

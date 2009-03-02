@@ -92,8 +92,8 @@ public class HumanView extends SimpleView<HumanModel, HumanController> {
     }                                           
 
     private void showDulDialog(DulDBO dul) {
-
-        if (dulView == null || sdDul == null) {
+        //todo    создать контроллер ƒ”Ћа , произвести подписку на событие,св€занное с ƒ”Ћом 
+                if (dulView == null || sdDul == null) {
 
             dulView = new DulView();
             dulView.getModel().setProperty(dul);

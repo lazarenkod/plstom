@@ -21,7 +21,7 @@ import com.jgoodies.binding.PresentationModel;
  * @author <a href="mailto:shaigorodskiy.vadim@otr.ru" >Vadim Shaigorodskiy</a>
  * @since 1.9
  */
-public interface VisualForm<T, C> {
+public interface VisualForm<C> {
      /**
      * Методы вызывается при открытии новой формы
 //     * @param data

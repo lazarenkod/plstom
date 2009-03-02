@@ -10,7 +10,7 @@
         </folder>
     </folder>
     <folder name="aaa" displayName="View">
-        <attr name="instanceClass" stringvalue="com"/>
+        <attr name="instanceClass" stringvalue="com.pl.plugins.commons.actions.HumanListAction"/>
         <attr name="displayName" stringvalue="Window"/>
         <attr name="name" stringvalue="aaaaddd"/>
     </folder>

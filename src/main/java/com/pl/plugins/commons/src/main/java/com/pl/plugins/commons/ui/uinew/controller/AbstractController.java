@@ -54,7 +54,7 @@ public class AbstractController<V, T, E> {
     /**
      * Визуальная форма
      */
-    private VisualForm visualForm;
+    protected VisualForm visualForm;
 
     private TaskSettings settings = new TaskSettings();
 
@@ -122,6 +122,7 @@ public class AbstractController<V, T, E> {
                     T result = get();
                     getVisualForm().setController(AbstractController.this);
                     afterLoad(result);
+                    getVisualForm().getPresentationModel().setBean(result);
                     updatePresentationModel();
                     if (getVisualForm() != null) {
                         switch (openMode) {

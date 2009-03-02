@@ -4,22 +4,25 @@
 
 package com.pl.plugins.commons.ui.views.impl;
 
-import java.awt.*;
-import java.awt.event.*;
-import java.util.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import com.toedter.calendar.*;
-import com.pl.plugins.commons.ui.models.impl.DulModel;
-import com.pl.plugins.commons.ui.controllers.impl.DulController;
-import com.pl.plugins.commons.dal.dbo.HumanDBO;
 import com.pl.plugins.commons.dal.dbo.DulDBO;
-import org.jdesktop.layout.*;
-import org.jdesktop.layout.GroupLayout;
-import org.jdesktop.layout.LayoutStyle;
-import org.jdesktop.beansbinding.Bindings;
+import com.pl.plugins.commons.ui.controllers.impl.DulController;
+import com.pl.plugins.commons.ui.models.impl.DulModel;
+import com.toedter.calendar.JDateChooser;
 import org.jdesktop.beansbinding.AutoBinding;
 import org.jdesktop.beansbinding.BeanProperty;
+import org.jdesktop.beansbinding.Bindings;
+import org.jdesktop.layout.GroupLayout;
+import org.jdesktop.layout.LayoutStyle;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.border.TitledBorder;
+import javax.swing.event.ChangeEvent;
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.ResourceBundle;
 
 /**
  * @author Vlad Kimo
@@ -66,6 +69,10 @@ public class DulView extends View<DulModel, DulController> {
     private void button1ActionPerformed(ActionEvent e) {
         getModel().getProperty().setNum("dffffffff");
         
+    }
+
+    private void button1StateChanged(ChangeEvent e) {
+        // TODO add your code here         
     }
 
     private void initComponents() {
